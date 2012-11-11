@@ -1,0 +1,4 @@
+{
+	// Set to true to turn spell checking on by default
+  "spell_check": true
+}

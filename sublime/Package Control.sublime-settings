@@ -1,0 +1,26 @@
+{
+	"auto_upgrade_last_run": 1352255781,
+	"installed_packages":
+	[
+		"Alignment",
+		"Backbone.js",
+		"emmet-sublime",
+		"ExpressionEngine",
+		"FileDiffs",
+		"Gist",
+		"HTML5",
+		"jQuery",
+		"JsFormat",
+		"Markdown Preview",
+		"Package Control",
+		"SCSS",
+		"SideBarEnhancements",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"SublimeTODO"
+	],
+	"repositories":
+	[
+		"https://github.com/sergeche/emmet-sublime"
+	]
+}
