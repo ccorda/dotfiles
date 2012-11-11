@@ -1,0 +1,68 @@
+# shortcut to this dotfiles path is $ZSH
+# export ZSH=$HOME/projects/dotfiles/zsh
+ZSH=$HOME/.oh-my-zsh
+DOTFILES=~/projects/dotfiles/zsh
+
+# your project folder that we can `c [tab]` to
+# export PROJECTS=~/projects
+
+# source every .zsh file in this rep
+# for config_file ($ZSH/**/*.zsh) source $config_file
+
+# RVM
+# export PATH="$HOME/.rbenv/bin:$PATH"
+# eval "$(rbenv init -)"
+
+# NODE
+
+export NODE_PATH="/usr/local/lib/node"
+# /usr/local/share/npm/bin
+# above added to pathdirs below
+
+#PATHS
+
+pathdirs=(
+    /usr/local/bin
+    /usr/local/sbin
+    /usr/bin
+    /bin
+    /usr/sbin
+    /sbin
+    /usr/X11/bin
+    ~/bin
+    /usr/local/share/npm/bin
+)
+for dir in $pathdirs; do
+    if [ -d $dir ]; then
+        path+=$dir
+    fi
+done
+
+# Colors
+autoload -U colors
+colors
+setopt prompt_subst
+
+# Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
+# Example format: plugins=(rails git textmate ruby lighthouse)
+plugins=(git brew history-substring-search)
+
+# History
+HISTSIZE=1000
+SAVEHIST=1000
+HISTFILE=~/.zsh_history
+setopt share_history
+setopt inc_append_history
+
+# Completions
+
+# Show completion on first TAB
+setopt menucomplete
+
+# initialize autocomplete here, otherwise functions won't be loaded
+autoload -U compinit
+compinit
+
+# Load Custom
+source $DOTFILES/cc.zsh-theme
+source $DOTFILES/aliases.zsh
