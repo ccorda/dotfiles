@@ -1,0 +1,7 @@
+[user]
+	name = Cameron Corda
+	email = ccorda@gmail.com
+[core]
+	excludesfile = /Users/cameron/.gitignore_global
+[color]
+	ui = true
