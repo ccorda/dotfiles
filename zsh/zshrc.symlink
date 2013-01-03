@@ -51,8 +51,11 @@ plugins=(git brew history-substring-search)
 HISTSIZE=1000
 SAVEHIST=1000
 HISTFILE=~/.zsh_history
-setopt share_history
+# setopt share_history
 setopt inc_append_history
+
+bindkey "^[[A" history-search-backward
+bindkey "^[[B" history-search-forward
 
 # Completions
 
