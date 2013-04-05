@@ -68,4 +68,4 @@ compinit
 
 # Load Custom
 source $DOTFILES/cc.zsh-theme
-source $DOTFILES/aliases.zsh
+for config_file ($DOTFILES/*.zsh) source $config_file
