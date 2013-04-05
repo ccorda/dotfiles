@@ -5,3 +5,7 @@
 	excludesfile = /Users/cameron/.gitignore_global
 [color]
 	ui = true
+[push]
+	default = current
+[github]
+	user = ccorda
