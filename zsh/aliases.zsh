@@ -4,6 +4,11 @@ alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
 
+function p {
+  project=$1
+  cd ~/projects/${1}
+}
+
 # git
 
 # Use `hub` as our git wrapper:
