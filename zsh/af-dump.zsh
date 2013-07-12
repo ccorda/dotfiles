@@ -13,6 +13,7 @@ function afdump2 {
 
 function afdump {
   # todo: need to extract id from url
+  # example: afdump project 'http://dl.aws.af.cm/serialized/mysql/.../snapshots/12345?token=foo' 12345
   url=$2
   id=$3
   curl $url > ~/tmp/af/dump-$1.gz
