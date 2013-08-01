@@ -14,7 +14,7 @@ function p {
   cd ~/projects/${1}
 }
 
-# git
+#### git ####
 
 # Use `hub` as our git wrapper:
 #   http://defunkt.github.com/hub/
@@ -24,7 +24,6 @@ then
   alias git=$hub_path
 fi
 
-# git
 alias gp='git push'
 alias gl='git pull'
 alias glog="git log --graph --pretty=format:'%Cred%h%Creset %an: %s - %Creset %C(yellow)%d%Creset %Cgreen(%cr)%Creset' --abbrev-commit --date=relative"
