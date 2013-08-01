@@ -9,16 +9,6 @@ DOTFILES=~/projects/dotfiles/zsh
 # source every .zsh file in this rep
 # for config_file ($ZSH/**/*.zsh) source $config_file
 
-# RVM
-# export PATH="$HOME/.rbenv/bin:$PATH"
-# eval "$(rbenv init -)"
-
-# NODE
-
-export NODE_PATH="/usr/local/lib/node"
-# /usr/local/share/npm/bin
-# above added to pathdirs below
-
 #PATHS
 
 pathdirs=(
@@ -37,6 +27,14 @@ for dir in $pathdirs; do
         path+=$dir
     fi
 done
+
+# RBENV
+eval "$(rbenv init -)"
+
+# NODE
+export NODE_PATH="/usr/local/lib/node"
+# /usr/local/share/npm/bin
+# above added to pathdirs below
 
 # Colors
 autoload -U colors

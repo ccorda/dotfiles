@@ -1,23 +1,35 @@
 {
-	"auto_upgrade_last_run": 1352255781,
+	"auto_upgrade_last_run": null,
 	"installed_packages":
 	[
 		"Alignment",
 		"Backbone.js",
+		"Bower",
+		"Can I Use",
+		"Dayle Rees Color Schemes",
+		"EditorConfig",
 		"emmet-sublime",
 		"ExpressionEngine",
 		"FileDiffs",
 		"Gist",
+		"Git",
+		"GitGutter",
+		"Handlebars",
+		"Hayaku - tools for writing CSS faster",
 		"HTML5",
 		"jQuery",
 		"JsFormat",
+		"LESS",
+		"Liquid",
 		"Markdown Preview",
 		"Package Control",
+		"Placeholders",
 		"SCSS",
 		"SideBarEnhancements",
 		"SublimeCodeIntel",
 		"SublimeLinter",
-		"SublimeTODO"
+		"SublimeTODO",
+		"TrailingSpaces"
 	],
 	"repositories":
 	[
