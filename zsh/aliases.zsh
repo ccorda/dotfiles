@@ -1,4 +1,8 @@
-# cd
+#### apache ####
+alias apr='sudo apachectl restart'
+alias apv="subl subl /etc/apache2/extra/httpd-vhosts.conf /etc/hosts"
+
+##### cd ####
 alias ..='cd ..'
 alias ...="cd ../.."
 alias ....="cd ../../.."
