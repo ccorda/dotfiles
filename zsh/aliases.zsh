@@ -1,6 +1,10 @@
 #### apache ####
 alias apr='sudo apachectl restart'
-alias apv="subl subl /etc/apache2/extra/httpd-vhosts.conf /etc/hosts"
+alias apv="subl /etc/apache2/extra/httpd-vhosts.conf /etc/hosts -n"
+
+#### nginx ####
+alias ngr='sudo nginx -s reload'
+alias ngv="subl /usr/local/etc/nginx/nginx.conf /etc/hosts -n"
 
 ##### cd ####
 alias ..='cd ..'
@@ -41,7 +45,7 @@ alias gr='grunt release'
 #### python ####
 alias pys='python -m SimpleHTTPServer 8888'
 
-#### sql ####
+#### sql #### 
 alias sqlaf='node ~/projects/jts-sandbox/appfog-database-export/export.js'
 
 function sqld {
