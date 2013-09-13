@@ -16,7 +16,7 @@ precmd() {
 function vcs_info_wrapper() {
   vcs_info
   if [ -n "$vcs_info_msg_0_" ]; then
-    echo "%{$fg[grey]%}${vcs_info_msg_0_}%{$reset_color%}$del"
+    echo "%{$fg[green]%}${vcs_info_msg_0_}%{$reset_color%}$del"
   fi
 }
 
