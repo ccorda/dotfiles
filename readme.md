@@ -11,5 +11,7 @@ Run these on a new system
 ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" ~/bin/subl
 ln -s ~/projects/dotfiles/sublime/ "~/Library/Application Support/Sublime Text 3/Packages/User"
 ln -s ~/projects/dotfiles/zsh/zshrc.symlink ~/.zshrc
+ln -s ~/projects/dotfiles/git/.gitconfig ~/.gitconfig
+ln -s ~/projects/dotfiles/git/.gitignore_global ~/.gitignore_global
 /Users/cameron/Library/Application Support/Sublime Text 3/Packages/User
 ```
