@@ -9,6 +9,7 @@ HipChat
 Google Drive
 iTerm
 MouseZoom
+Rescue Time
 Sequel Pro
 Sketch *
 Sublime Text *
