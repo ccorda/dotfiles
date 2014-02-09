@@ -3,6 +3,7 @@
 	email = ccorda@gmail.com
 [core]
 	excludesfile = /Users/cameron/.gitignore_global
+	fileMode = false
 [color]
 	ui = true
 [push]
