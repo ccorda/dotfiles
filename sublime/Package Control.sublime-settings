@@ -2,7 +2,9 @@
 	"auto_upgrade_last_run": null,
 	"installed_packages":
 	[
+		"AdvancedNewFile",
 		"Alignment",
+		"CSScomb",
 		"Dayle Rees Color Schemes",
 		"EditorConfig",
 		"ExpressionEngine",
@@ -10,6 +12,7 @@
 		"Gist",
 		"Git",
 		"GitGutter",
+		"Grunt",
 		"HTML5",
 		"jQuery",
 		"JsFormat",
@@ -17,16 +20,16 @@
 		"Liquid",
 		"Markdown Preview",
 		"Package Control",
+		"PHP-Twig",
 		"Placeholders",
+		"ReactJS",
 		"SCSS",
 		"SideBarEnhancements",
+		"Siteleaf Liquid Syntax",
 		"SublimeCodeIntel",
 		"SublimeLinter",
-		"SublimeTODO",
-		"TrailingSpaces"
+		"TodoReview"
 	],
 	"repositories":
-	[
-		"https://github.com/sergeche/emmet-sublime"
-	]
+	[]
 }
