@@ -33,7 +33,7 @@ path=('/usr/local/bin' $path)
 
 
 # RBENV
-eval "$(rbenv init -)"
+# eval "$(rbenv init -)"
 
 # NODE
 export NODE_PATH="/usr/local/lib/node"
