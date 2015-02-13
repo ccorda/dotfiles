@@ -1,7 +1,21 @@
-# Thanks to
+# New System Startup
 
-* @mathias for the [OSX defaults](https://github.com/mathiasbynens/dotfiles)
-* @robbyrussell for [oh-my-zsh](http://github.com/robbyrussell/oh-my-zsh)
+1. Open `Terminal`, clone dotfiles: `git clone https://github.com/ccorda/dotfiles.git`
+2. Accept developer tools prompt to install that.
+3. Install Homebrew: `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+4. Run `brew doctor`
+5. Get all packages with Brew: `sh osx/brew.sh`
+6. Update OSX defaults: `sh osx/deafults.sh`
+7. Set ZSH as default shell: `chsh -s /bin/zsh`
+
+Specific Mac Notes
+
+1. Open `Dropbox`, download all files.
+2. *Alfred*: Install license from `dropxbox/apps/alfred-license.txt`
+2. Open `Google Chrome`, sync profile.
+3. Open `Adobe Creative Cloud`, 
+
+
 
 # Symlinks
 
@@ -17,8 +31,11 @@ ln -s ~/projects/dotfiles/git/.gitignore_global ~/.gitignore_global
 
 # Brew
 
-Install the tools:
-`ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
 Then run our tasks:
-`osx/brew.sh`
+
+
+# Thanks to
+
+* @mathias for the [OSX defaults](https://github.com/mathiasbynens/dotfiles)
+* @robbyrussell for [oh-my-zsh](http://github.com/robbyrussell/oh-my-zsh)
