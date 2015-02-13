@@ -58,10 +58,27 @@ function sqli {
     # to load a specific file (todo)
     # or to grab the most recent .gz file
     # usage: sqli project
-    sql=`ls -Art *.gz | tail -n 1`
+    sql=`ls -Art _data/*.(gz|zip)* | tail -n 1`
     echo $sql
-    gunzip < $sql | mysql -u root -h 127.0.0.1 $1
+    ext=${sql##*.}
+    if [ $ext = "zip" ]; then
+      unzip -p $sql | mysql -u root -h 127.0.0.1 $1
+    else
+      gunzip < $sql | mysql -u root -h 127.0.0.1 $1
+    fi
+
+    ## run local mods if present
+    file="_data/local.sql"
+    if [ -f "$file" ]
+    then
+      mysql -u root -h 127.0.0.1 $1 < $file
+      echo "$file imported."
+    else
+      echo "$file not found."
+    fi
+    
     echo 'import complete'
+
     # todo: based on the filename, just grab the DB automatically
 }
 

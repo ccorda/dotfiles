@@ -1,21 +1,27 @@
 {
 	"auto_upgrade_last_run": null,
+	"in_process_packages":
+	[
+	],
 	"installed_packages":
 	[
 		"AdvancedNewFile",
 		"Alignment",
-		"CSScomb",
 		"Dayle Rees Color Schemes",
+		"EasyDiff",
 		"EditorConfig",
 		"ExpressionEngine",
 		"FileDiffs",
+		"Find Non ASCII Characters",
 		"Gist",
 		"Git",
-		"GitGutter",
+		"GitGutter-Edge",
 		"Grunt",
+		"Handlebars",
 		"HTML5",
 		"jQuery",
 		"JsFormat",
+		"JSX",
 		"LESS",
 		"Liquid",
 		"Markdown Preview",
@@ -28,8 +34,11 @@
 		"Siteleaf Liquid Syntax",
 		"SublimeCodeIntel",
 		"SublimeLinter",
-		"TodoReview"
+		"SublimeLinter-jsxhint",
+		"TodoReview",
+		"Twig"
 	],
 	"repositories":
-	[]
+	[
+	]
 }
