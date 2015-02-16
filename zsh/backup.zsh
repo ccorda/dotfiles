@@ -28,14 +28,22 @@ function restore_dropbox {
     backuppath='/Users/cameron/Dropbox/appdata/conf/'
     
     source='fonts/'
-    destination='~/Library/fonts'
+    destination='/Users/cameron/Library/fonts'
     rsync -a $backuppath$source $destination
 
     source='.ssh/'
-    destination='~/.ssh'
+    destination='/Users/cameron/.ssh'
     rsync -a $backuppath$source $destination
 
     chmod 600 ~/.ssh/id_rsa
+
+    source='sysctl.conf'
+    destination='/etc/sysctl.conf'
+    rsync -a $backuppath$source $destination
+
+    source='.my.cnf'
+    destination='/Users/cameron/.my.cnf'
+    rsync -a $backuppath$source $destination
 
     # backuppath='/Users/cameron/Dropbox/appdata/conf/'
 

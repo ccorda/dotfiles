@@ -31,6 +31,8 @@ done
 # ensure these are first is first
 path=('/usr/local/bin' $path)
 
+# PHP
+export PATH="$(brew --prefix homebrew/php/php55)/bin:$PATH"
 
 # RBENV
 # eval "$(rbenv init -)"

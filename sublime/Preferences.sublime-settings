@@ -8,10 +8,10 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"LESS",
+		"Dayle Rees Color Schemes",
 		"Vintage",
 		"FileDiffs",
-		"Dayle Rees Color Schemes"
+		"LESS"
 	],
 	"margin": 2,
 	"match_brackets": true,

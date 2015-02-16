@@ -12,14 +12,13 @@ Specific Mac Notes
 
 1. Open `Dropbox`, download all files.
 2. *Alfred*: Install license from `dropxbox/apps/alfred-license.txt`
-2. Open `Google Chrome`, sync profile.
-3. Open `Adobe Creative Cloud`, 
-
-
+3. Open `Google Chrome`, sync profile.
+4. Open `Adobe Creative Cloud`, download apps
+5. Open Mac App store, download whatever is needed 
 
 # Symlinks
 
-Run these on a new system
+Run these on a new system to link to dotfiles versions
 
 ```
 ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" ~/bin/subl
@@ -28,14 +27,3 @@ ln -s ~/projects/dotfiles/zsh/zshrc.symlink ~/.zshrc
 ln -s ~/projects/dotfiles/git/.gitconfig ~/.gitconfig
 ln -s ~/projects/dotfiles/git/.gitignore_global ~/.gitignore_global
 ```
-
-# Brew
-
-
-Then run our tasks:
-
-
-# Thanks to
-
-* @mathias for the [OSX defaults](https://github.com/mathiasbynens/dotfiles)
-* @robbyrussell for [oh-my-zsh](http://github.com/robbyrussell/oh-my-zsh)
