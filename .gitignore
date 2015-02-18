@@ -1,6 +1,9 @@
+### Private
 _private.*
 apache
 Gist.sublime-settings
+
+### Temp
 
 Package Control.last-run
 Package Control.ca-list

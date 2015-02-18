@@ -1,0 +1,222 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 127.0,
+		"selected_items":
+		[
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"qui",
+				"Git: Quick Commit"
+			],
+			[
+				"git pull",
+				"Git: Pull"
+			],
+			[
+				"priv",
+				"Gist: Create Private Gist"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"break",
+			"exit",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/cameron/projects/dotfiles"
+	],
+	"file_history":
+	[
+		"/Users/cameron/projects/pai/timber/template-home.php",
+		"/Users/cameron/projects/pai/timber/views/partials/header.twig",
+		"/Users/cameron/projects/pai/timber/views/single-article.twig",
+		"/Users/cameron/projects/pai/wp-content/plugins/advanced-custom-fields-pro/lang/acf-ru-RU.mo",
+		"/Users/cameron/projects/pai/timber/archive.php",
+		"/Users/cameron/projects/pai/timber/views/partials/newsletter.twig",
+		"/Users/cameron/projects/pai/wp-content/plugins/timber-library/vendor/twig/twig/lib/Twig/Node/Expression/Binary/NotEqual.php",
+		"/Users/cameron/projects/pai/wp-content/plugins/oauth-twitter-feed-for-developers/StormTwitter.class.php",
+		"/Users/cameron/projects/pai/wp-content/plugins/timber-library/functions/timber-posts-collection.php",
+		"/Users/cameron/projects/pai/wp-content/plugins/timber-library/vendor/twig/twig/test/Twig/Tests/Node/Expression/Unary/PosTest.php",
+		"/Users/cameron/projects/pai/wp-content/plugins/post-type-switcher/post-type-switcher.php",
+		"/Users/cameron/projects/pai/wp-content/plugins/advanced-custom-fields-pro/fields/post_object.php",
+		"/Users/cameron/projects/pai/package.json",
+		"/Users/cameron/projects/precision-www/wp-content/themes/twentyfifteen/genericons/example.html",
+		"/Users/cameron/projects/precision-www/wp-content/plugins/timber-library/timber-starter-theme/views/tease.twig",
+		"/Users/cameron/projects/precision-www/wp-admin/theme-editor.php",
+		"/Users/cameron/projects/precision-www/wp-trackback.php",
+		"/Users/cameron/projects/precision-www/wp-admin/link-add.php",
+		"/Users/cameron/projects/precision-www/license.txt",
+		"/Users/cameron/projects/precision-www/theme-timber/assets/scss/_variables.scss",
+		"/Users/cameron/projects/precision-www/wp-admin/css/colors/_variables.scss",
+		"/Users/cameron/projects/precision-www/slice/assets/scss/_variables.scss",
+		"/Users/cameron/projects/precision-www/wp-includes/vars.php",
+		"/Users/cameron/projects/precision-www/precision.sublime-project"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 118.0
+	},
+	"project": "dotfiles.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"article.sc",
+				"timber/assets/scss/partials/_article.scss"
+			],
+			[
+				"news",
+				"timber/views/template-newsletters.twig"
+			],
+			[
+				"layout.tw",
+				"theme-timber/views/layout.twig"
+			],
+			[
+				"variables",
+				"slice/assets/scss/_variables.scss"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 454.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
