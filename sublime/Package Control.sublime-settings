@@ -1,5 +1,6 @@
 {
 	"auto_upgrade_last_run": null,
+	"bootstrapped": true,
 	"in_process_packages":
 	[
 	],
@@ -7,35 +8,37 @@
 	[
 		"AdvancedNewFile",
 		"Alignment",
+		"Babel",
 		"Dayle Rees Color Schemes",
 		"EasyDiff",
 		"EditorConfig",
-		"ExpressionEngine",
 		"FileDiffs",
 		"Find Non ASCII Characters",
 		"Gist",
 		"Git",
-		"GitGutter-Edge",
+		"GitGutter",
 		"Grunt",
 		"Handlebars",
 		"HTML5",
 		"jQuery",
 		"JsFormat",
-		"JSX",
 		"LESS",
 		"Liquid",
 		"Markdown Preview",
+		"Oceanic Next Color Scheme",
 		"Package Control",
 		"PHP-Twig",
 		"Placeholders",
-		"ReactJS",
 		"SCSS",
 		"SideBarEnhancements",
+		"sublime-github",
 		"SublimeCodeIntel",
 		"SublimeLinter",
-		"SublimeLinter-jsxhint",
+		"SublimeLinter-contrib-eslint",
+		"Theme - Broceanic",
 		"TodoReview",
-		"Twig"
+		"Twig",
+		"URLEncode"
 	],
 	"repositories":
 	[

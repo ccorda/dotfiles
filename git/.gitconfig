@@ -3,7 +3,8 @@
 	email = ccorda@gmail.com
 [core]
 	excludesfile = /Users/cameron/.gitignore_global
-	fileMode = false
+	filemode = false
+	ignorecase = false
 [color]
 	ui = true
 [push]
@@ -14,5 +15,5 @@
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
 [mergetool "sourcetree"]
-	cmd = /opt/homebrew-cask/Caskroom/sourcetree/2.0.4/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	cmd = /Users/cameron/Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true

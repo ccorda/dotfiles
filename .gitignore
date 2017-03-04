@@ -2,6 +2,8 @@
 _private.*
 apache
 Gist.sublime-settings
+GitHub.sublime-settings
+oscrypto-ca-bundle.crt
 
 ### Temp
 
@@ -11,3 +13,4 @@ Package Control.ca-bundle
 Package Control.system-ca-bundle
 Package Control.cache/
 Package Control.ca-certs/
+

@@ -1,17 +1,35 @@
 {
-	"color_scheme": "Packages/User/Peacock (SL).tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/Oceanic Next (SL).tmTheme",
 	"detect_slow_plugins": false,
-	"draw_white_space": "all",
+	"draw_white_space": "spaces",
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		"node_modules",
+		"composer",
+		".happypack",
+		"wp-admin",
+		"wp-includes",
+		// "wp-content/plugins",
+		"wp-content/themes/_states",
+		"bower_components",
+		"website-guts/assets/js/libraries",
+		"build",
+		"vendor",
+		"dev"
+	],
 	"font_face": "Source Code Pro Light",
-	"font_size": 14.0,
+	"font_size": 15,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
 		"Dayle Rees Color Schemes",
-		"Vintage",
 		"FileDiffs",
-		"LESS"
+		"Vintage"
 	],
 	"margin": 2,
 	"match_brackets": true,
@@ -21,5 +39,6 @@
 	"match_brackets_square": true,
 	"match_tags": true,
 	"tab_size": 4,
+	"theme": "Broceanic.sublime-theme",
 	"translate_tabs_to_spaces": true
 }

@@ -58,13 +58,15 @@ function sqli {
     # to load a specific file (todo)
     # or to grab the most recent .gz file
     # usage: sqli project
-    sql=`ls -Art _data/*.(gz|zip)* | tail -n 1`
+    sql=`ls -Art _data/*.(gz|zip|sql)* | tail -n 1`
     echo $sql
     ext=${sql##*.}
     if [ $ext = "zip" ]; then
       unzip -p $sql | mysql -u root -h 127.0.0.1 $1
-    else
+    elif [ $ext = "gz" ]; then
       gunzip < $sql | mysql -u root -h 127.0.0.1 $1
+    else
+      mysql -u root -h 127.0.0.1 $1 < $sql
     fi
 
     ## run local mods if present
