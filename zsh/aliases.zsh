@@ -1,10 +1,11 @@
 #### apache ####
 alias apr='sudo apachectl restart'
-alias apv="subl /etc/apache2/extra/httpd-vhosts.conf /etc/hosts -n"
+alias apk='sudo apachectl -k stop'
+alias apv="code /etc/apache2/extra/httpd-vhosts.conf /etc/hosts /etc/apache2/httpd.conf -n"
 
 #### nginx ####
 alias ngr='sudo nginx -s reload'
-alias ngv="subl /usr/local/etc/nginx/nginx.conf /etc/hosts -n"
+alias ngv="code /usr/local/etc/nginx/nginx.conf /etc/hosts -n"
 
 ##### cd ####
 alias ..='cd ..'
@@ -38,15 +39,10 @@ alias gco='git checkout'
 alias gb='git branch'
 alias gs='git status -sb'
 
-#### grunt ####
-alias g='grunt'
-alias gr='grunt release'
-
 #### python ####
 alias pys='python -m SimpleHTTPServer 8888'
 
 #### sql #### 
-alias sqlaf='node ~/projects/jts-sandbox/appfog-database-export/export.js'
 
 function sqld {
     # usage: sqld project

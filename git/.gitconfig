@@ -3,7 +3,7 @@
 	email = ccorda@gmail.com
 [core]
 	excludesfile = /Users/cameron/.gitignore_global
-	filemode = false
+	fileMode = false
 	ignorecase = false
 [color]
 	ui = true
@@ -15,5 +15,7 @@
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
 [mergetool "sourcetree"]
-	cmd = /Users/cameron/Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
+[http]
+	cookiefile = /Users/cameron/.gitcookies
