@@ -1,21 +1,23 @@
-# New System Startup
+## Specific Mac Notes
+
+See Notion
+
+## New System Startup
 
 1. Open `Terminal`, clone dotfiles: `git clone https://github.com/ccorda/dotfiles.git`
 2. Accept developer tools prompt to install that.
 3. Install Homebrew: `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 4. Run `brew doctor`
 5. Update OSX defaults: `sh osx/deafults.sh`
+6. Run symlinks below
 7. Set ZSH as default shell: `chsh -s /bin/zsh`
+8. [Install NVM](https://github.com/nvm-sh/nvm#install--update-script): `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash`
+9. Install various verisons of node, e.g. `nvm install 14 12 10`, `nvm alias default 12`
+10. [Install GCP](https://medium.com/@tapendradev/how-to-install-gcloud-sdk-on-the-macos-and-start-managing-gcp-through-cli-d14d2c3a8869)
 
-Specific Mac Notes
+### Configure Lamp
 
-1. Open `Dropbox`, download all files.
-2. *Alfred*: Install license from `dropxbox/apps/alfred-license.txt`
-3. Open `Google Chrome`, sync profile.
-4. Open `Adobe Creative Cloud`, download apps
-5. Open Mac App store, download whatever is needed 
-
-# Symlinks
+### Symlinks
 
 Run these on a new system to link to dotfiles versions
 
@@ -31,3 +33,23 @@ potentially in future:
 ```
 ln -s ~/.dotfiles/VSCode/snippets/ ~/Library/Application\ Support/Code/User
 ```
+
+### VS Code Plugins
+
+You can see current plugins installed with this: `code --list-extensions`.
+
+Current list, you can install these by running `code --install-extension foo.bar`
+
+```
+dbaeumer.vscode-eslint
+EditorConfig.EditorConfig
+esbenp.prettier-vscode
+formulahendry.auto-close-tag
+GitHub.vscode-pull-request-github
+HookyQR.beautify
+kenhowardpdx.vscode-gist
+ms-python.python
+naumovs.theme-oceanicnext
+sysoev.vscode-open-in-github
+```
+
